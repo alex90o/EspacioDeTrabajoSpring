@@ -1,0 +1,57 @@
+package colecciones;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//colecciones
+		//set -> HashSet: no duplicados, es más eficiente
+	
+		HashSet<String> nombres = new HashSet<>();
+		nombres.add("Martin");
+		nombres.add("Alexis");
+		nombres.add("Candela");
+		nombres.add("Leonardo");
+		nombres.add("Sofia");
+		System.out.println(nombres.size());
+		nombres.add("Martin");
+		System.out.println(nombres.size());
+		System.out.println(nombres.contains("Sofia"));
+		nombres.remove("Martin");
+		System.out.println(nombres.size());
+		HashSet<String>nombres2 = new HashSet<>();
+		nombres2.addAll(nombres);
+		System.out.println(nombres.size());
+		System.out.println(nombres2.size());
+		System.out.println(nombres2.containsAll(nombres));
+		System.out.println(nombres2.equals(nombres));
+		nombres2.removeAll(nombres);
+		System.out.println(nombres.size());
+		System.out.println(nombres2.size());
+		for (String x : nombres ) {
+			System.out.println(x);
+		}
+		System.out.println("**************");
+		Iterator<String> it =nombres.iterator();
+		while (it.hasNext()) {
+			String nombre = it.next();
+			if (nombre.equals("Sofia"))
+				it.remove();
+			else
+				System.out.println(nombre);
+		}
+		System.out.println(nombres.size());
+		System.out.println(nombres.isEmpty());
+		System.out.println(nombres2.isEmpty());
+		nombres.clear();
+		System.out.println(nombres.isEmpty());
+		
+	}
+
+}

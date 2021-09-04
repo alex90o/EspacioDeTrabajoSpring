@@ -1,0 +1,16 @@
+package colecciones;
+
+import java.util.HashSet;
+
+import com.sun.tools.classfile.Opcode.Set;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//colecciones
+		//set -> HashSet: no duplicados, es más eficiente
+		Set <Sting> nombres new HashSet<>();
+	}
+
+}
