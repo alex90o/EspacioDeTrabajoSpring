@@ -11818,3 +11818,24 @@ Caused by: java.io.FileNotFoundException: C:\Users\ALEXIS\Documents\workspace-sp
 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:123)
 	at org.eclipse.swt.graphics.ImageLoader.save(ImageLoader.java:264)
 	... 12 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 00:01:08.297
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 00:01:08.300
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 00:01:08.301
+!MESSAGE buffering callback sts4.classpath.vXbYmwxl ProyectoColecciones2 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 00:01:08.302
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 00:01:08.303
+!MESSAGE buffering callback sts4.classpath.vXbYmwxl ProyectoExepciones2 true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 00:01:08.303
+!MESSAGE executing callback sts4.classpath.vXbYmwxl 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-07 00:01:08.398
+!MESSAGE executing callback sts4.classpath.vXbYmwxl SUCCESS [done]
