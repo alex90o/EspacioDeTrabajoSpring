@@ -6,9 +6,11 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
+import java.util.TreeMap;
 import java.util.TreeSet;
 
 public class AppPrincipal {
@@ -142,12 +144,47 @@ public class AppPrincipal {
 		
 		System.out.println("******MAP*******");
 		Map<Integer, String> mapa = new HashMap<Integer, String>();
-		mapa.put(1, "Buenos Aires");
+	/*  mapa.put(1, "Buenos Aires");
 		mapa.put(2, "Mendoza");
 		mapa.put(3, "Jujuy");
 		mapa.put(4, "Salta");
 		System.out.println(mapa);
-		//mapa.put(4, null)
+		mapa.put(4, "Córdoba");
+		System.out.println(mapa);
+	*/
+		//HashMap
+		//TreeMap
+		//LinkedHashMap
+		Map<Integer, String> mapa2 = new TreeMap<>();
+		mapa2.put(4, "Buenos Aires");
+		mapa2.put(2, "Memdoda");
+		mapa2.put(1, "Jujuy");
+		mapa2.put(3, "Salta");
+		System.out.println(mapa2);
+		mapa2.put(4, "Córdoba");
+		System.out.println(mapa2);
+		
+		Map<Integer, String> mapa3 = new LinkedHashMap<>();
+		mapa3.put(4, "Buenos Aires");
+		mapa3.put(2, "Memdoda");
+		mapa3.put(1, "Jujuy");
+		mapa3.put(3, "Salta");
+		System.out.println(mapa3);
+		mapa2.put(4, "Córdoba");
+		System.out.println(mapa3);
+		System.out.println(mapa3.isEmpty());
+		System.out.println(mapa3.get(1));
+		mapa3.remove(1);
+		System.out.println(mapa3);
+		System.out.println(mapa3.containsValue("Tucuman"));
+		Iterator datos= mapa3.keySet().iterator();
+		while (datos.hasNext()) {
+			Integer key = (Integer) datos.next();
+			System.out.println("key: " + key + ", valor: " + mapa.get(key));
+		}
+				
+		/*mapa.clear();
+		System.out.println(mapa.isEmpty());*/
 	}
 
 }
