@@ -9,6 +9,7 @@ public class AppPrincipal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+	/*	
 		//1 - crear una lista que tenga los meses del año
 		ArrayList<String> meses = new ArrayList<>();
 		meses.add("septiembre");
@@ -52,7 +53,8 @@ public class AppPrincipal {
 		//7 - borrar
 		meses.clear();
 		System.out.println(meses.isEmpty());
-
+*/
+		DataBase conn = new DataBase();
 	}
 
 }

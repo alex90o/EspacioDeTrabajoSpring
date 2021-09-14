@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="sun.awt.image.InputStreamImageSource"/>
-    <fullyQualifiedTypeName name="vaca.modulos.Destino"/>
-    <fullyQualifiedTypeName name="clase23.Calculadora"/>
-    <fullyQualifiedTypeName name="practica.Futbolista"/>
-    <fullyQualifiedTypeName name="practica.SeleccionFutbol"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="PaqueteFechas.Fecha"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -21,7 +16,6 @@
     <fullyQualifiedTypeName name="paqueteInT2.IMetodos"/>
     <fullyQualifiedTypeName name="paqueteInT2.Factura"/>
     <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="paqueteInT2.Letras"/>
     <fullyQualifiedTypeName name="paqueteInT2.Letras2"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.compiler.sym"/>
@@ -29,7 +23,6 @@
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="sun.jvm.hotspot.debugger.posix.elf.ELFException"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="exep2.Operar"/>
     <fullyQualifiedTypeName name="exep2.NuestraException"/>
     <fullyQualifiedTypeName name="exep2.Comidas"/>
@@ -54,6 +47,17 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="practicas.DataBase"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="practicaBase.DataBase"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="java.beans.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="com.educacionittelecom.conexiones.Conexion"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.educacionittelecom.modulos.Comida"/>
 </qualifiedTypeNameHistroy>
