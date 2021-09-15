@@ -7,7 +7,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		 //Conexion.conectar();
+		 Conexion.conectar();
 		 //Comida c1 = new Comida(123,"Asado", 200, "El Asado de Candela");
 		 //c1.insertar(c1);
 		 
@@ -16,8 +16,8 @@ public class Main {
 		//Comida.borrar(1);
 		
 		//editar comida
-		Comida c3 = new Comida(2, "Milanesas", 350, "Don Tito");
-		c3.editar(c3);
+		Comida c3 = new Comida(3, "Milanesas de Pollo", 200, "Don Tito");
+		c3.editar(c3); // ver si puedo arreglar el precio
 		
 		
 	}
