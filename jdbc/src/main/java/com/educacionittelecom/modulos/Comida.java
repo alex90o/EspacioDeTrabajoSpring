@@ -1,6 +1,7 @@
 package com.educacionittelecom.modulos;
 
 import java.sql.Connection;
+import java.sql.ResultSet;
 import java.sql.Statement;
 
 import com.educacionittelecom.conexiones.Conexion;
@@ -98,7 +99,8 @@ public class Comida {
 			e.printStackTrace();
 		}
 	}
-	
+
+/*
 	public void editar(Comida c) {
 		try {
 			Connection conexion = Conexion.conectar();
@@ -108,6 +110,48 @@ public class Comida {
 			Statement stmt = conexion.createStatement();
 			stmt.execute(sql);
 			System.out.println("Editado!");
+			stmt.close();
+			conexion.close();
+		} catch (Exception e) {
+			System.out.println("Error no pude editar");
+			e.printStackTrace();
+		}
+	}
+*/	
+	public void editar(Comida c) {
+		try {
+			Connection conexion = Conexion.conectar();
+			String sql = "UPDATE comidas SET nombre = '"+ c.getNombre() +"' ,precio = '"+ c.getPrecio() + ""
+			+"',descripcion = '"+ c.getDescripcion() 
+			+"' WHERE id = '"+ c.getId() +"'";
+			Statement stmt = conexion.createStatement();
+			stmt.execute(sql);
+			System.out.println("Editado!");
+			stmt.close();
+			conexion.close();
+		} catch (Exception e) {
+			System.out.println("Error no pude editar");
+			e.printStackTrace();
+		}
+	}
+	
+	public static void listar() {
+		try {
+			Connection conexion = Conexion.conectar();
+			String sql = "SELECT *FROM comidas";
+			Statement stmt = conexion.createStatement();
+			ResultSet datos = stmt.executeQuery(sql);
+			System.out.println("mostrando datos:");
+			while (datos.next()) {
+				System.out.println("Id: " +datos.getInt("id"));
+				System.out.println("Nombre: "+ datos.getString("nombre"));
+				System.out.println("Precio: " +datos.getDouble("precio"));
+				System.out.println("Descripción: "+ datos.getString("descripcion"));
+				System.out.println("\t************\n");
+				
+			}
+			
+		
 			stmt.close();
 			conexion.close();
 		} catch (Exception e) {

@@ -18,8 +18,10 @@ public class Main {
 		//editar comida
 		Comida c3 = new Comida(3, "Milanesas de Pollo", 200, "Don Tito");
 		c3.editar(c3); // ver si puedo arreglar el precio
-		
-		
+		 //Comida c4 = new Comida(3, "sopa", 200, "Don Tito");
+		 //c4.editar(c4);
+		// Comida.listar();
+		 
 	}
 
 }

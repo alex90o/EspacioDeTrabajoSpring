@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="PaqueteFechas.Fecha"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="com.educacionittelecom.modules.IPruebita"/>
-    <fullyQualifiedTypeName name="java.lang.UnknownError"/>
-    <fullyQualifiedTypeName name="com.educacionittelecom.modules.Uno"/>
-    <fullyQualifiedTypeName name="com.educacionittelecom.modules.Dos"/>
-    <fullyQualifiedTypeName name="com.educacionittelecom.modules.IEncender"/>
     <fullyQualifiedTypeName name="com.educacionittelecom.modules.Telefono"/>
     <fullyQualifiedTypeName name="com.educacionittelecom.modules.IValidar"/>
     <fullyQualifiedTypeName name="com.educacionittelecom.modules.Persona"/>
@@ -43,21 +36,28 @@
     <fullyQualifiedTypeName name="java.util.TreeMap"/>
     <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="practicas.DataBase"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="practicaBase.DataBase"/>
-    <fullyQualifiedTypeName name="java.lang.Class"/>
-    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.security.PublicKey"/>
     <fullyQualifiedTypeName name="java.beans.Statement"/>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="com.educacionittelecom.conexiones.Conexion"/>
     <fullyQualifiedTypeName name="com.educacionittelecom.modulos.Comida"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="databbbase.Conexion"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="com.minegocio.interfaces.IOperaciones"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.minegocio.VO.ClienteVo"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.minegocio.DAO.ClienteDAO"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="com.minegocios.Conexion"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="com.minegocio.VO.ClienteVO"/>
 </qualifiedTypeNameHistroy>
