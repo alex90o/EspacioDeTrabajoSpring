@@ -18,6 +18,13 @@ public ClienteVO(int dni, String nombre, String apellido, String correo, ArrayLi
 	this.correo = correo;
 	this.productos = productos;
 }
+
+public ClienteVO(int dni, String nombre, String apellido, String correo) {
+	this.dni = dni;
+	this.nombre = nombre;
+	this.apellido = apellido;
+	this.correo = correo;
+}
 public ClienteVO() {
 	
 }
