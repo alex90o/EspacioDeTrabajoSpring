@@ -6614,3 +6614,534 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.eclipse.ui 2 2 2021-09-23 01:03:28.163
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-09-23 01:28:52.511
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-09-23 01:28:52.516
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2021-09-23 01:33:56.103
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Path '/tito15-09/target/classes' must denote location inside project 'Proyecto']
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3608)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3568)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3624)
+	at org.eclipse.jdt.internal.core.CopyPackageFragmentRootOperation.addEntryToClasspath(CopyPackageFragmentRootOperation.java:182)
+	at org.eclipse.jdt.internal.core.CopyPackageFragmentRootOperation.executeOperation(CopyPackageFragmentRootOperation.java:55)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:811)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.copy(PackageFragmentRoot.java:304)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.CopyPackageFragmentRootChange.doPerformReorg(CopyPackageFragmentRootChange.java:43)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.PackageFragmentRootReorgChange.perform(PackageFragmentRootReorgChange.java:73)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.access$0(DynamicValidationStateChange.java:1)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.lambda$0(DynamicValidationStateChange.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5907)
+	at org.eclipse.jdt.internal.corext.refactoring.changes.DynamicValidationStateChange.perform(DynamicValidationStateChange.java:106)
+	at org.eclipse.jdt.internal.corext.refactoring.reorg.JavaCopyProcessor$1.perform(JavaCopyProcessor.java:158)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:224)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper$Operation.run(RefactoringExecutionHelper.java:106)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5907)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$7(WorkbenchWindow.java:2345)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2343)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper.perform(RefactoringExecutionHelper.java:187)
+	at org.eclipse.jdt.internal.ui.refactoring.RefactoringExecutionHelper.perform(RefactoringExecutionHelper.java:151)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.ReorgCopyStarter.run(ReorgCopyStarter.java:71)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.PasteAction$JavaElementAndResourcePaster.paste(PasteAction.java:1360)
+	at org.eclipse.jdt.internal.ui.refactoring.reorg.PasteAction.run(PasteAction.java:269)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+!SUBENTRY 1 org.eclipse.jdt.core 4 971 2021-09-23 01:33:56.104
+!MESSAGE Path '/tito15-09/target/classes' must denote location inside project 'Proyecto'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:31.650
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:31.651
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3283ced5[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:31.810
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:32.235
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:45.581
+!MESSAGE Boot LS startup time from start to initialized: 13625ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.733
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WjEaqZcrisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.772
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.792
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.793
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.794
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.794
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WjEaqZcr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.799
+!MESSAGE classpath=10 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.800
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr Proyecto false 10
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.801
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.802
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.803
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr Clase29 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.804
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.805
+!MESSAGE classpath=8 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.806
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr DAO false 8
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.807
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.808
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.809
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr Exepciones false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.809
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.810
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.811
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr Exepciones2 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.812
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.813
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.813
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr Herencia false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.814
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.815
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.816
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr PraacticaBicicleta false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.816
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.817
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.818
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr ProyectoColecciones false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.818
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.819
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.820
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr ProyectoColecciones2 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.821
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.822
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.822
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr ProyectoFechas false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.823
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.824
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.824
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr ProyectoFutbol false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.825
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.826
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.826
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr ProyectoInterfaces false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.827
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.827
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.828
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr ProyectoInterfaces2 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.829
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.830
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.831
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr ProyectoVaciones false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.831
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.833
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.833
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr clase23 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.835
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.836
+!MESSAGE classpath=8 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.837
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr jdbc false 8
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.838
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.838
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.839
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr practicaBase false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.840
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.840
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.841
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr proyectoStreams false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.842
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.843
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.843
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr purbaclase15-05 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.844
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.845
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.845
+!MESSAGE buffering callback sts4.classpath.WjEaqZcr tito15-09 false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:47.846
+!MESSAGE executing callback sts4.classpath.WjEaqZcr 20 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:34:49.380
+!MESSAGE executing callback sts4.classpath.WjEaqZcr SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:35:05.866
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WjEaqZcr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:35:05.867
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.WjEaqZcr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:35:05.868
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:35:05.869
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WjEaqZcr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:17.238
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:17.239
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3283ced5[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:17.240
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.655
+!MESSAGE Boot LS startup time from start to initialized: 4414ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.786
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YZIsDDSYisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.788
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.789
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.790
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.791
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.791
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YZIsDDSY => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.792
+!MESSAGE classpath=10 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.793
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY Proyecto false 10
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.794
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.795
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.796
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY Clase29 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.796
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.798
+!MESSAGE classpath=8 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.799
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY DAO false 8
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.800
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.801
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.802
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY Exepciones false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.803
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.805
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.805
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY Exepciones2 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.806
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.807
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.809
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY Herencia false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.810
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.811
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.813
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY PraacticaBicicleta false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.815
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.816
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.817
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY ProyectoColecciones false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.819
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.820
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.822
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY ProyectoColecciones2 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.823
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.825
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.825
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY ProyectoFechas false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.826
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.828
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.829
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY ProyectoFutbol false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.830
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.831
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.832
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY ProyectoInterfaces false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.833
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.834
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.835
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY ProyectoInterfaces2 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.836
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.837
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.838
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY ProyectoVaciones false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.839
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.840
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.841
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY clase23 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.842
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.843
+!MESSAGE classpath=8 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.844
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY jdbc false 8
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.845
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.846
+!MESSAGE classpath=3 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.847
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY practicaBase false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.848
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.850
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.851
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY proyectoStreams false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.853
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.854
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.855
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY purbaclase15-05 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.856
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.858
+!MESSAGE classpath=9 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.859
+!MESSAGE buffering callback sts4.classpath.YZIsDDSY tito15-09 false 9
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:21.860
+!MESSAGE executing callback sts4.classpath.YZIsDDSY 20 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-23 01:40:22.461
+!MESSAGE executing callback sts4.classpath.YZIsDDSY SUCCESS [done]
