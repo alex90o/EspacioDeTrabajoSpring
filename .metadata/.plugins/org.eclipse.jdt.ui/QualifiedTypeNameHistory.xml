@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.compiler.sym"/>
-    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="sun.jvm.hotspot.debugger.posix.elf.ELFException"/>
@@ -45,7 +43,6 @@
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="com.minegocio.VO.ClienteVO"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="com.minegocios.Conexion"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="com.minegocio.DAO.ClienteDAO"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="com.educacionittelecom.datosVO.ClienteVO"/>
+    <fullyQualifiedTypeName name="com.educacionittelecom.datosDAO.ClienteDAO"/>
+    <fullyQualifiedTypeName name="com.minegocios.Conexion"/>
 </qualifiedTypeNameHistroy>
