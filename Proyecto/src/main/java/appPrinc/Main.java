@@ -9,7 +9,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		//Conexion.conectar();
-		ClienteVO c = new ClienteVO(123,"Austry","Castillo","castilloaustry@gmail.com");
+		//ClienteVO c = new ClienteVO(123,"Austry","Castillo","castilloaustry@gmail.com");
+		//ClienteDAO.insertar(c);
+		ClienteVO c = new ClienteVO(505,"Tito","Lindo","TITO@gmail.com");
 		ClienteDAO.insertar(c);
 	}
 

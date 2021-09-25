@@ -1480,3 +1480,11 @@
 2021-09-24 22:32:43,536 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
 2021-09-24 22:32:43,538 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-09-24 22:32:43,538 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 22:52:12,485 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:52:12,486 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 22:52:12,487 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:52:12,488 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 22:52:28,193 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:52:28,194 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 22:52:28,195 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:52:28,195 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
