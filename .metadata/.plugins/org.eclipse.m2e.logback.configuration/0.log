@@ -1472,3 +1472,11 @@
 2021-09-24 22:13:25,011 [Worker-11: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Proyecto
 2021-09-24 22:13:25,012 [Worker-11: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Proyecto
 2021-09-24 22:13:25,017 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:16:23,943 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:16:23,944 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 22:16:23,945 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:16:23,945 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 22:32:43,536 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:32:43,536 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 22:32:43,538 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:32:43,538 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
