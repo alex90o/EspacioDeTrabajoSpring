@@ -1325,3 +1325,150 @@
 2021-09-23 02:29:46,065 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2021-09-23 02:29:46,067 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-09-23 02:29:46,069 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 04:13:19,075 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-09-24 05:06:59,300 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-24 05:12:54,547 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-24 05:15:26,625 [Worker-6: Launching Main (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 05:15:26,626 [Worker-6: Launching Main (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 05:15:26,630 [Worker-6: Launching Main (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 05:15:26,630 [Worker-6: Launching Main (7)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 05:15:29,758 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-24 05:15:29,773 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 05:15:29,777 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-24 05:15:29,798 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 05:15:32,220 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-24 05:15:32,222 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 05:15:32,225 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-24 05:15:32,226 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 05:15:32,931 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-24 05:15:32,932 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 05:15:32,934 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-24 05:15:32,937 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 21:19:04,585 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-24 21:26:54,701 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-24 21:26:54,721 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 21:26:54,724 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-24 21:26:54,726 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 21:27:28,888 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-24 21:38:04,309 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-24 21:38:04,319 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 21:38:04,349 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-24 21:38:04,351 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 21:53:01,565 [Worker-17: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.educacionittelecom.proyectoweb:Proyecto:0.0.1-SNAPSHOT @ C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\pom.xml.
+2021-09-24 21:53:03,117 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:53:03,117 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 21:53:03,121 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:53:03,121 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 21:53:03,127 [Worker-17: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Proyecto
+2021-09-24 21:53:03,128 [Worker-17: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Proyecto
+2021-09-24 21:53:03,136 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:54:09,463 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-09-24 21:54:09,913 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.educacionittelecom.proyectoweb:Proyecto:0.0.1-SNAPSHOT @ C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\pom.xml.
+2021-09-24 21:54:10,714 [Worker-17: Updating Maven Project] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine source level, using default 1.5
+2021-09-24 21:54:10,715 [Worker-17: Updating Maven Project] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine target level, using default 1.5
+2021-09-24 21:54:10,832 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Proyecto/src/main/java
+2021-09-24 21:54:10,834 [Worker-17: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Proyecto/src/test/java
+2021-09-24 21:54:12,149 [Worker-17: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Proyecto
+2021-09-24 21:54:12,159 [Worker-17: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2021-09-24 21:54:12,690 [Worker-21: Building Project Proyecto] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:54:12,691 [Worker-21: Building Project Proyecto] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 21:54:12,695 [Worker-21: Building Project Proyecto] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:54:12,696 [Worker-21: Building Project Proyecto] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 21:54:12,696 [Worker-21: Building Project Proyecto] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Proyecto
+2021-09-24 21:54:12,696 [Worker-21: Building Project Proyecto] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Proyecto
+2021-09-24 21:54:12,702 [Worker-21: Building Project Proyecto] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:55:46,289 [Worker-22: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.educacionittelecom.proyectoweb:Proyecto:0.0.1-SNAPSHOT @ C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\pom.xml.
+2021-09-24 21:55:47,148 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:55:47,148 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 21:55:47,151 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:55:47,152 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 21:55:47,152 [Worker-22: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Proyecto
+2021-09-24 21:55:47,153 [Worker-22: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Proyecto
+2021-09-24 21:55:47,157 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:55:59,626 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-09-24 21:55:59,967 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.educacionittelecom.proyectoweb:Proyecto:0.0.1-SNAPSHOT @ C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\pom.xml.
+2021-09-24 21:56:00,827 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Proyecto/src/main/java
+2021-09-24 21:56:00,828 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Proyecto/src/test/java
+2021-09-24 21:56:01,258 [Worker-18: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Proyecto
+2021-09-24 21:56:01,272 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-09-24 21:56:01,922 [Worker-18: Building Project Proyecto] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:56:01,923 [Worker-18: Building Project Proyecto] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 21:56:01,927 [Worker-18: Building Project Proyecto] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:56:01,928 [Worker-18: Building Project Proyecto] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 21:56:01,928 [Worker-18: Building Project Proyecto] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Proyecto
+2021-09-24 21:56:01,928 [Worker-18: Building Project Proyecto] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Proyecto
+2021-09-24 21:56:01,934 [Worker-18: Building Project Proyecto] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:56:54,680 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.educacionittelecom.proyectoweb:Proyecto:0.0.1-SNAPSHOT @ C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\pom.xml.
+2021-09-24 21:56:55,392 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:56:55,392 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 21:56:55,395 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:56:55,397 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 21:56:55,398 [Worker-18: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Proyecto
+2021-09-24 21:56:55,398 [Worker-18: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Proyecto
+2021-09-24 21:56:55,403 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:57:08,109 [Worker-21: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-09-24 21:57:08,429 [Worker-21: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.educacionittelecom.proyectoweb:Proyecto:0.0.1-SNAPSHOT @ C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\pom.xml.
+2021-09-24 21:57:09,271 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Proyecto/src/main/java
+2021-09-24 21:57:09,272 [Worker-21: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Proyecto/src/test/java
+2021-09-24 21:57:09,598 [Worker-21: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Proyecto
+2021-09-24 21:57:09,605 [Worker-21: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-09-24 21:57:10,152 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:57:10,153 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 21:57:10,156 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:57:10,156 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 21:57:10,156 [Worker-21: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Proyecto
+2021-09-24 21:57:10,157 [Worker-21: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Proyecto
+2021-09-24 21:57:10,162 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:58:58,130 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:58:58,131 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 21:58:58,133 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:58:58,134 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 21:59:36,743 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:59:36,743 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 21:59:36,745 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 21:59:36,745 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 22:00:07,041 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:00:07,041 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 22:00:07,043 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:00:07,043 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 22:04:22,842 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:04:22,842 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 22:04:22,844 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:04:22,844 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 22:05:46,524 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:05:46,525 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 22:05:46,526 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:05:46,526 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 22:10:05,228 [Worker-25: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.educacionittelecom.proyectoweb:Proyecto:0.0.1-SNAPSHOT @ C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\pom.xml.
+2021-09-24 22:10:06,237 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:10:06,238 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 22:10:06,240 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:10:06,241 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 22:10:06,241 [Worker-25: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Proyecto
+2021-09-24 22:10:06,241 [Worker-25: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Proyecto
+2021-09-24 22:10:06,247 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:10:07,027 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:10:07,028 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 22:10:07,045 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:10:07,046 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 22:12:07,655 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-24 22:12:07,657 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 22:12:07,658 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-09-24 22:12:07,660 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 22:12:18,011 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:12:18,011 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 22:12:18,013 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:12:18,013 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 22:13:23,015 [Worker-27: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-09-24 22:13:23,294 [Worker-27: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.educacionittelecom.proyectoweb:Proyecto:0.0.1-SNAPSHOT @ C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\pom.xml.
+2021-09-24 22:13:23,870 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Proyecto/src/main/java
+2021-09-24 22:13:23,871 [Worker-27: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Proyecto/src/test/java
+2021-09-24 22:13:24,286 [Worker-27: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Proyecto
+2021-09-24 22:13:24,295 [Worker-27: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-09-24 22:13:25,004 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:13:25,008 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\main\resources
+2021-09-24 22:13:25,011 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 22:13:25,011 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ALEXIS\Documents\workspace-spring-tool-suite-4-4.11.0.RELEASE\Proyecto\src\test\resources
+2021-09-24 22:13:25,011 [Worker-11: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Proyecto
+2021-09-24 22:13:25,012 [Worker-11: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Proyecto
+2021-09-24 22:13:25,017 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.

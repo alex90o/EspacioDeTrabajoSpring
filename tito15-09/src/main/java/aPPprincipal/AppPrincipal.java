@@ -4,12 +4,13 @@ import java.util.ArrayList;
 
 import com.minegocio.DAO.ClienteDAO;
 import com.minegocio.VO.ClienteVO;
+import com.minegocios.Conexion;
 
 public class AppPrincipal {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//Conexion.conectar();
+		Conexion.conectar();
 		/*ArrayList<String> p = new ArrayList<String>();
 		p.add("lapicera");
 		p.add("borrador");
@@ -24,8 +25,8 @@ public class AppPrincipal {
 		ClienteDAO cd3 = new ClienteDAO();
 		cd3.modificar(c4);
 		*/
-		ClienteDAO cd4 = new ClienteDAO();
-		cd4.eliminar(123);
+		//ClienteDAO cd4 = new ClienteDAO();
+		//cd4.eliminar(123);
 		
 	}
 

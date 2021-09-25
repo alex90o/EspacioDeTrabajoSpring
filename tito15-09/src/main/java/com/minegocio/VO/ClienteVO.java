@@ -65,7 +65,7 @@ public String toString() {
 }
 
 public void listar() {
-	Iterator it = productos.iterator();
+	Iterator<String> it = productos.iterator();
 	while (it.hasNext()) {
 		System.out.println(it.next());;
 	}	

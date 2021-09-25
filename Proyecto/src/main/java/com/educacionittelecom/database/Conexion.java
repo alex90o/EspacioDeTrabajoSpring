@@ -9,9 +9,8 @@ public class Conexion {
 
 	public static Connection conectar() {
 		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
-			conexion = DriverManager.getConnection("jdbc:mysql://localhost/minegocio", 
-					"root", "");
+			Class.forName("org.mariadb.jdbc.Driver");
+			conexion = DriverManager.getConnection("jdbc:mariadb://localhost/minegocio","root", "");
 			System.out.println("Si conecta");
 		} catch (Exception e) {
 			System.out.println("no conecta");
